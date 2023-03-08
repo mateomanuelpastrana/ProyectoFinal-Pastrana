@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "javascript": "^1.0.0",
+    "jquery": "^3.6.4",
+    "js": "^0.1.0",
+    "node-sass": "^8.0.0",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.21",
+    "sass": "^1.58.3"
+  },
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Pastrana Mateo",
+  "license": "ISC",
+  "description": ""
+}
