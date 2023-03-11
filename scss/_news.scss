@@ -13,7 +13,7 @@ $timeline-width:700px;
 $timeline-container-width:100%;
 .timeline {
   display: flex;
-  margin: 0 auto;
+  margin:  auto;
   flex-wrap: wrap;
   flex-direction: column;
   max-width: $timeline-width;

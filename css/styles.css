@@ -9,6 +9,9 @@
     font-weight: bolder;
     font-size: 25px; }
 
+.partedos {
+  margin: 16px; }
+
 body {
   font-family: "Roboto", sans-serif;
   background: white; }
@@ -65,7 +68,7 @@ body {
 
 .timeline {
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   flex-wrap: wrap;
   flex-direction: column;
   max-width: 700px;
